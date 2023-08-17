@@ -7,7 +7,7 @@ CREATE TABLE Employee (
     MID INT, -- Manager ID
     FirstName VARCHAR(50),
     LastName VARCHAR(50),
-    Email VARCHAR(100) UNIQUE,
+    class VARCHAR(100) ,
     Department VARCHAR(50),
     Salary DECIMAL(10, 2),
     FOREIGN KEY (MID) REFERENCES Employee(EmployeeID)
