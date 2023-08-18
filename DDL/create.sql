@@ -10,5 +10,5 @@ CREATE TABLE Employee (
     class VARCHAR(100) ,
     Department VARCHAR(50),
     Salary DECIMAL(10, 2),
-    FOREIGN KEY (MID) REFERENCES Employee(EmployeeID)
+   -- FOREIGN KEY (MID) REFERENCES Employee(EmployeeID)
 );
