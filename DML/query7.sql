@@ -3,5 +3,5 @@
 -- Find employees of class A with manager in class B using self-join
 SELECT e.EmployeeID, e.FirstName, e.LastName, e.Class, m.FirstName AS ManagerFirstName, m.LastName AS ManagerLastName
 FROM Employee e
-JOIN Employee m ON e.MID = m.EmployeeID
+JOIN Employee m ON e.MID = m.EmployeeID -- Check how each type of join can be applied in mySQL and rewrite for left outer join
 WHERE e.Class = 'Class A' AND m.Class = 'Class B';
