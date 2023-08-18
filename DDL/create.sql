@@ -10,5 +10,5 @@ CREATE TABLE Employee (
     class VARCHAR(100) ,
     Department VARCHAR(50),
     Salary DECIMAL(10, 2),
-    FOREIGN KEY (MID) REFERENCES Employee(EmployeeID) --  Not Required, Foreign Key should reference to some other table.
+ ---  FOREIGN KEY (MID) REFERENCES Employee(EmployeeID) --  Not Required, Foreign Key should reference to some other table.
 );
